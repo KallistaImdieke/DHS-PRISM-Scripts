@@ -102,6 +102,15 @@ cs_scripts_array(script_num).agencies_that_use		= "ANOKA, BELTRAMI, DAKOTA, HENN
 script_num = script_num + 1
 ReDim Preserve cs_scripts_array(script_num)
 SET cs_scripts_array(script_num) = NEW cs_script
+cs_scripts_array(script_num).script_name		= "CONTEMPT NOTE - DATE OF HEARING"
+cs_scripts_array(script_num).script_type		= "NOTE"
+cs_scripts_array(script_num).file_name			= "NOTE - CONTEMPT NOTE - DATE OF HEARING.vbs"
+cs_scripts_array(script_num).description		= "Creates M3909 CAAD Note with Contempt hearing Notes"
+cs_scripts_array(script_num).agencies_that_use		= "ANOKA, BELTRAMI, DAKOTA, HENNEPIN, MILLE LACS, OLMSTED, RAMSEY, RENVILLE, SCOTT, STEARNS, WASHINGTON, WRIGHT"
+
+script_num = script_num + 1
+ReDim Preserve cs_scripts_array(script_num)
+SET cs_scripts_array(script_num) = NEW cs_script
 cs_scripts_array(script_num).script_name		= "COURT ORDER REQUEST"
 cs_scripts_array(script_num).script_type		= "NOTES"
 cs_scripts_array(script_num).file_name			= "NOTES - COURT ORDER REQUEST.vbs"
